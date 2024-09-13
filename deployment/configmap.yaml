@@ -4,8 +4,8 @@ metadata:
   name: postgresql-configmap
 data:
   DB_NAME: mydatabase
-  DB_USER: myuser
-  DB_HOST: "127.0.0.1"
+  DB_USERNAME: myuser
+  DB_HOST: "10.100.208.180"
   DB_PORT: "5432"
 ---
 apiVersion: v1
